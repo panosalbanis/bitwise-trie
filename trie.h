@@ -14,7 +14,7 @@ typedef struct trie_node {
 } trie_node;
 
 /*
-*	Inserts a given short to a given bitwise trie. 
+* Inserts a given short to a given bitwise trie. 
 */
 void insert(short number, trie_node **head);
 
